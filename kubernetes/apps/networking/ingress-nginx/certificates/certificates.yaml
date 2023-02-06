@@ -9,9 +9,9 @@ spec:
   issuerRef:
     name: letsencrypt-production
     kind: ClusterIssuer
-  commonName: "${SECRET_DOMAIN}"
+  commonName: "local.${SECRET_DOMAIN}"
   dnsNames:
-    - "${SECRET_DOMAIN}"
+    - "local.${SECRET_DOMAIN}"
     - "*.${SECRET_DOMAIN}"
 ---
 apiVersion: cert-manager.io/v1
@@ -24,7 +24,7 @@ spec:
   issuerRef:
     name: letsencrypt-staging
     kind: ClusterIssuer
-  commonName: "${SECRET_DOMAIN}"
+  commonName: "local.${SECRET_DOMAIN}"
   dnsNames:
-    - "${SECRET_DOMAIN}"
+    - "local.${SECRET_DOMAIN}"
     - "*.${SECRET_DOMAIN}"
