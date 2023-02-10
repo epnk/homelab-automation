@@ -19,6 +19,8 @@ fedora:
     - python3-kubernetes
     - python3-libselinux
     - python3-pyyaml
+    - intel-media-va-driver-non-free
+    - intel-opencl-icd
 
 ubuntu:
   packages:
@@ -32,3 +34,5 @@ ubuntu:
     - socat
     - python3-kubernetes
     - python3-yaml
+    - intel-media-va-driver-non-free
+    - intel-opencl-icd
