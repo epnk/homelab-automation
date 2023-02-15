@@ -19,6 +19,10 @@ fedora:
     - python3-kubernetes
     - python3-libselinux
     - python3-pyyaml
+    - intel-media-va-driver-non-free
+    - intel-opencl-icd
+    - vainfo
+    - intel-gpu-tools
 
 ubuntu:
   packages:
