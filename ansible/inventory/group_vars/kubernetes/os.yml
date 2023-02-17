@@ -19,14 +19,13 @@ fedora:
     - python3-kubernetes
     - python3-libselinux
     - python3-pyyaml
-    - intel-media-va-driver-non-free
-    - intel-opencl-icd
-    - vainfo
+    - intel-media-driver
+    - intel-opencl
     - intel-gpu-tools
 
 ubuntu:
   packages:
-    - hdparm
+    - hdparm3
     - htop
     - ipvsadm
     - lm-sensors
